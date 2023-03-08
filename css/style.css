@@ -163,6 +163,20 @@ h4 {
 .secondary-text h4 {
   line-height: 2.5;
 }
+
+/* Pengajian */
+
+.test {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  background-color: aqua;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 15rem;
+}
+
 .copyright {
   font-size: 1rem;
   color: var(--primary);
