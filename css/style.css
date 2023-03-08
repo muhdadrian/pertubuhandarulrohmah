@@ -267,7 +267,7 @@ h4 {
     gap: 0;
     flex-direction: column;
     background-color: var(--primary);
-    width: 48%;
+    width: 47%;
     height: 100vh;
     text-align: left;
     transition: 0.3s;
