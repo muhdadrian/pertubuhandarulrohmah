@@ -19,13 +19,16 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
 
 .logo {
-  margin: 1rem 0 0 1rem;
+  /* margin: 1rem 0 0 1rem; */
   height: 7rem;
   object-fit: contain;
   cursor: pointer;
+  border: 1px solid rgb(195, 187, 187);
+  margin: 1rem 0 0 1rem;
 }
 
 .navbar {
@@ -38,6 +41,7 @@ body {
   list-style: none;
   display: inline-block;
   margin: 0 3.5rem;
+  position: relative;
 }
 
 .navbar ul li a {
@@ -56,6 +60,7 @@ body {
   right: 0;
   bottom: -10px;
   transition: 0.5s;
+  position: absolute;
 }
 
 .navbar ul li:hover:after {
@@ -69,6 +74,63 @@ body {
     url('../img/background.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-block {
+  display: flex;
+  /* background-color: #3cb043; */
+  padding: 0 1rem;
+  position: absolute;
+  top: 15rem;
+}
+
+.main-text {
+  /* position: absolute; */
+
+  color: var(--bg);
+  text-align: left;
+  font-weight: 500;
+  padding-left: 1rem;
+  /* width: 40%; */
+  /* top: 15rem;
+  margin-left: 5rem;
+  width: 25rem; */
+}
+
+.main-text h2 {
+  padding: 1rem 0;
+}
+
+.main-text,
+.secondary-text h1,
+h2,
+h3,
+h4 {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.75);
+}
+
+.secondary-text {
+  /* position: absolute; */
+
+  color: var(--bg);
+  text-align: left;
+  font-weight: 500;
+  padding-left: 5rem;
+  padding-top: 2rem;
+
+  /* background-color: #3cb043; */
+  /* top: 19rem;
+  margin-left: 35rem;
+  width: 50rem; */
+}
+
+.secondary-text h3 {
+  padding-bottom: 1rem;
+}
+
+.secondary-text h3 span {
+  text-decoration: underline;
 }
 
 .copyright {
@@ -79,6 +141,7 @@ body {
   bottom: 0;
   right: 39%;
   left: 39%;
+  margin-bottom: 1rem;
   /* background-color: aqua; */
 }
 
@@ -94,14 +157,28 @@ body {
 /* Tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 100%;
+    font-size: 80%;
+  }
+  .main-block {
+    flex-wrap: wrap;
+  }
+  .main-text {
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    margin: 3rem 0 0 3rem;
+  }
+
+  .secondary-text {
+    padding-left: 1rem;
   }
 }
 
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 100%;
+    font-size: 70%;
   }
 }
 
