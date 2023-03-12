@@ -41,7 +41,7 @@ body {
 .navbar ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 4.5rem;
+  margin: 0 3.5rem;
   position: relative;
   /* background-color: aqua; */
 }
@@ -52,7 +52,7 @@ a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
@@ -223,7 +223,7 @@ h3 {
 
 @media (max-width: 1366px) {
   html {
-    font-size: 99%;
+    font-size: 100%;
   }
   /* .text {
     color: var(--bg);
@@ -238,7 +238,7 @@ h3 {
 
 @media (max-width: 768px) {
   html {
-    font-size: 85%;
+    font-size: 100%;
   }
 
   .navbar {
