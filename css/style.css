@@ -145,7 +145,7 @@ h3 {
 }
 
 .sub-title {
-  margin: 0 37%;
+  margin: 0 auto;
 }
 
 .intro h1 {
@@ -225,13 +225,6 @@ h3 {
   html {
     font-size: 100%;
   }
-  /* .text {
-    color: var(--bg);
-    text-align: left;
-    font-weight: 500;
-    padding-left: 5rem;
-    padding-top: 2rem;
-  } */
 }
 
 /* Tablet */
